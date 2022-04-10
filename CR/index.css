@@ -1,0 +1,14 @@
+.div1{
+    position: relative;
+}
+.figure1{
+    position: absolute;
+}
+.figure2{
+    position: absolute;
+    left: 400px;
+}
+.figure3{
+    position: absolute;
+    left: 800px;
+}

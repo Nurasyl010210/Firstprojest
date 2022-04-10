@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts_c_d/caviar_dreams.eot');
+    src: url('fonts_c_d/caviar_dreams.eot?#iefix') format('embedded-opentype'),
+        url('fonts_c_d/caviar_dreams.woff2') format('woff2'),
+        url('fonts_c_d/caviar_dreams.woff') format('woff'),
+        url('fonts_c_d/caviar_dreams.ttf') format('truetype'),
+        url('fonts_c_d/caviar_dreams.svg#caviar_dreams') format('svg');
+}
+h1{
+    font-family: Caviar Dreams;
+}
+span{
+    font-style: italic;
+    font-weight: 900;
+}
+a{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.a2{
+    padding-left: 20px;
+}
+.img1{
+    margin-top: 10px;
+}
+.i1{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+button{
+    margin-left: 1000px;
+    
+}
+header{
+    padding-bottom: 30px;
+    background-color: #6d7993;
+
+}
+body{
+    background-color: #d5d5d5;
+    margin: 0;
+    padding: 0;
+    
+}
+footer{
+    background-color: #96858f;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    background: #6d7993;
+    height: 50px;
+}
+li{
+    float: left;
+    margin-right: 5px;
+    position: relative;
+}
+.a1{
+    text-decoration: none;
+    background: #6d7993;
+    color: black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    display: block;
+}
+.a1:hover{
+    background: #6d7993;
+}
+.ul2{
+    position: absolute;
+    top: 25px;
+    display: none;
+}
+li:hover > .ul2{
+    display: block;
+    width: 250px;
+}
+li:hover > .ul2 > .li2{
+    float: none;
+}
